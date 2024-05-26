@@ -1,21 +1,34 @@
 {
-  "name": "create-demo",
+  "name": "create-zhbase",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "bin": "outfile.cjs",
-  "scripts": {
-    "build": "esno scripts/build.ts"
+  "bin": {
+    "create-zhbase": "outfile.cjs"
   },
+  "scripts": {
+    "build": "esno scripts/build.ts",
+    "release": "bumpp"
+  },
+  "keywords": [
+    "uni",
+    "uni-app",
+    "zhbase",
+    "create-zhbase",
+    "cli",
+    "vue",
+    "miniapp"
+  ],
   "files": [
     "outfile.cjs"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "jinmuyan",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.12",
     "@types/prompts": "^2.4.9",
+    "bumpp": "^9.4.1",
     "esbuild": "^0.21.4",
     "esno": "^4.7.0",
     "kolorist": "^1.8.0",
