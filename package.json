@@ -1,0 +1,26 @@
+{
+  "name": "create-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "outfile.cjs",
+  "scripts": {
+    "build": "esno scripts/build.ts"
+  },
+  "files": [
+    "outfile.cjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/prompts": "^2.4.9",
+    "esbuild": "^0.21.4",
+    "esno": "^4.7.0",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "ora": "^8.0.1",
+    "prompts": "^2.4.2"
+  }
+}
