@@ -38,4 +38,16 @@ export const templateList: TemplateList[] = [
       },
     },
   },
+  {
+    title: `admin-demo${green("(管理后台示例)")}`,
+    description: `${red("(管理后台示例demo)")}`,
+    value: {
+      type: "admin-demo",
+      branch: "admin-demo",
+      url: {
+        gitee: "https://github.com/jinmuyan5393/zh-uni-base.git",
+        github: "https://github.com/jinmuyan5393/zh-uni-base.git",
+      },
+    },
+  },
 ];
