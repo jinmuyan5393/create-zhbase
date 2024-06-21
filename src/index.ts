@@ -4,7 +4,7 @@ import { existsSync, mkdirSync, rmdirSync, unlinkSync } from "node:fs";
 import minimist from "minimist";
 import prompts from "prompts";
 import { join } from "node:path";
-import { bold, red } from "kolorist";
+import { bold } from "kolorist";
 import type { BaseTemplateList } from "./question/template/type";
 import {
   printBanner,
