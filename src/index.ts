@@ -18,7 +18,6 @@ import { question } from "./question";
 import { templateList } from "./question/template/templateDate";
 import filePrompt from "./question/file";
 import { postOrderDirectoryTraverse } from "./utils/directoryTraverse";
-console.log("===========init=======");
 let loading;
 async function init() {
   printBanner();
@@ -41,7 +40,6 @@ async function init() {
   if (!projectName) {
     try {
       result = await question();
-      console.log(result);
     } catch (cancelled) {
       // eslint-disable-next-line no-console
       console.log((<{ message: string }>cancelled).message);
